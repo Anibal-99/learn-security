@@ -28,8 +28,8 @@ for request in range(1, 1001):
 
 
     """
-        Esto vera que la primera identificacion de la session anterior esta en blanco y si es asi verificara
-        si la identificacion de la session actual es mia y si la ID de session anterior es igual a 2, porque
+        Esto vera que la primera identificacion de la session anterior esta en blanco. Luego verificara
+        si la identificacion de la session actual que es mia y la ID de session anterior es igual a 2,
         de ser igual a 2 es porque en el medio omitio una ID de session, que corresponde a otro usuario
     """
     if previousSessionId != 0 and int(currentSessionId) - int(previousSessionId)==2:
